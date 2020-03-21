@@ -1,0 +1,20 @@
+[package]
+name = "stringify-attr"
+version = "1.0.0"
+authors = ["Popog <N/A>"]
+edition = "2018"
+description = "Attribute macros for stringifying"
+documentation = "https://docs.rs/stringify-attr"
+readme = "README.md"
+homepage = "https://github.com/Popog/stringify-attr"
+repository = "https://github.com/Popog/stringify-attr"
+license = "Zlib"
+keywords = ["proc-macro", "string", "stringify", "attribute", "attributes"]
+categories = ["development-tools::procedural-macro-helpers", "development-tools::testing"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1"
+quote = "1"
